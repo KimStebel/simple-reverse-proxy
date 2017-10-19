@@ -2,7 +2,7 @@ global
   maxconn 4096
 
 defaults
-  mode http
+  mode ${PROTOCOL}
   option forwardfor
 
   timeout connect 5s
